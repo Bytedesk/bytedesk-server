@@ -6,9 +6,9 @@
 
 ## 其他
 
-- [iOS SDK](https://github.com/pengjinning/bytedesk-ios)
-- [Android SDK](https://github.com/pengjinning/bytedesk-android)
-- [Web端接口](https://github.com/pengjinning/bytedesk-web)
-- [微信公众号/小程序接口](https://github.com/pengjinning/bytedesk-wechat)
-- [服务器端接口](https://github.com/pengjinning/bytedesk-server)
-- [机器人](https://github.com/pengjinning/bytedesk-chatbot)
+- [iOS SDK](https://github.com/bytedesk/bytedesk-ios)
+- [Android SDK](https://github.com/bytedesk/bytedesk-android)
+- [Web端接口](https://github.com/bytedesk/bytedesk-web)
+- [微信公众号/小程序接口](https://github.com/bytedesk/bytedesk-wechat)
+- [服务器端接口](https://github.com/bytedesk/bytedesk-server)
+- [机器人](https://github.com/bytedesk/bytedesk-chatbot)
