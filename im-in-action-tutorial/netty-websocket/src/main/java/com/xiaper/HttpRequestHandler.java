@@ -1,4 +1,4 @@
-package nia.chapter12;
+package com.xiaper;
 
 import io.netty.channel.*;
 import io.netty.handler.codec.http.*;

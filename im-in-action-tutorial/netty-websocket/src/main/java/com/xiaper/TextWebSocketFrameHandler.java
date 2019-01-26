@@ -1,4 +1,4 @@
-package nia.chapter12;
+package com.xiaper;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

@@ -1,4 +1,4 @@
-package hello;
+package com.xiaper;
 
 public class HelloMessage {
 

@@ -1,4 +1,4 @@
-package nia.chapter12;
+package com.xiaper;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;

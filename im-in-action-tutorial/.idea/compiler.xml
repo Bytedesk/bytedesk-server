@@ -6,15 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chapter12" />
         <module name="netty-websocket" />
         <module name="spring-boot-websocket-stomp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chapter12" target="1.5" />
       <module name="im-in-action-tutorial" target="1.5" />
-      <module name="netty-websocket" target="1.5" />
+      <module name="netty-websocket" target="1.7" />
       <module name="spring-boot-websocket-stomp" target="1.8" />
     </bytecodeTargetLevel>
   </component>

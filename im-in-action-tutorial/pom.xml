@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.xiaper</groupId>
-	<artifactId>im-in-action-tutorail</artifactId>
+	<artifactId>im-in-action-tutorial</artifactId>
 	<version>2.1.2</version>
 
 	<packaging>pom</packaging>
@@ -21,8 +21,8 @@
 
 	<modules>
 
-		<module>netty-websocket</module>
 		<module>spring-boot-websocket-stomp</module>
+		<module>netty-websocket</module>
 
 	</modules>
 
