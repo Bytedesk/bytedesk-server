@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/netty-websocket/chapter12.iml" filepath="$PROJECT_DIR$/netty-websocket/chapter12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-websocket/netty-websocket.iml" filepath="$PROJECT_DIR$/netty-websocket/netty-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" filepath="$PROJECT_DIR$/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" />
+    </modules>
+  </component>
+</project>
