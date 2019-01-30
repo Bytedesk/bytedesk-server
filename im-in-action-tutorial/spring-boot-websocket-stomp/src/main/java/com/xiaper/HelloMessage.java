@@ -1,5 +1,9 @@
 package com.xiaper;
 
+/**
+ *
+ * @author xiaper.com
+ */
 public class HelloMessage {
 
     private String name;
