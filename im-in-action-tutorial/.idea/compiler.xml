@@ -7,12 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="netty-websocket" />
+        <module name="spring-boot-sample-websocket-jetty" />
+        <module name="spring-boot-sample-websocket-tomcat" />
+        <module name="spring-boot-sample-websocket-undertow" />
         <module name="spring-boot-websocket-stomp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="im-in-action-tutorial" target="1.5" />
       <module name="netty-websocket" target="1.7" />
+      <module name="spring-boot-sample-websocket-jetty" target="1.5" />
+      <module name="spring-boot-sample-websocket-tomcat" target="1.5" />
+      <module name="spring-boot-sample-websocket-undertow" target="1.5" />
       <module name="spring-boot-websocket-stomp" target="1.8" />
     </bytecodeTargetLevel>
   </component>

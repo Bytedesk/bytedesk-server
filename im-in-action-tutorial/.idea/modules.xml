@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-websocket/netty-websocket.iml" filepath="$PROJECT_DIR$/netty-websocket/netty-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket-jetty/spring-boot-sample-websocket-jetty.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket-jetty/spring-boot-sample-websocket-jetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket-tomcat/spring-boot-sample-websocket-tomcat.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket-tomcat/spring-boot-sample-websocket-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket-undertow/spring-boot-sample-websocket-undertow.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket-undertow/spring-boot-sample-websocket-undertow.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" filepath="$PROJECT_DIR$/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" />
     </modules>
   </component>

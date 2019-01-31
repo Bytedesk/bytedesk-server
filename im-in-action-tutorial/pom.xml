@@ -23,6 +23,9 @@
 
 		<module>spring-boot-websocket-stomp</module>
 		<module>netty-websocket</module>
+		<module>spring-boot-sample-websocket-jetty</module>
+		<module>spring-boot-sample-websocket-tomcat</module>
+		<module>spring-boot-sample-websocket-undertow</module>
 
 	</modules>
 
