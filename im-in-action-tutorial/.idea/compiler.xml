@@ -21,10 +21,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="binary-chat" target="1.5" />
+      <module name="binary-chat" target="1.7" />
       <module name="im-in-action-tutorial" target="1.5" />
       <module name="java-websocket-chat" target="1.7" />
-      <module name="json-chat" target="1.5" />
+      <module name="json-chat" target="1.7" />
       <module name="netty-websocket" target="1.7" />
       <module name="protobuf-chat" target="1.7" />
       <module name="spring-boot-sample-websocket-jetty" target="1.5" />
