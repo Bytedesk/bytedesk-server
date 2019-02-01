@@ -26,6 +26,13 @@
 		<module>spring-boot-sample-websocket-jetty</module>
 		<module>spring-boot-sample-websocket-tomcat</module>
 		<module>spring-boot-sample-websocket-undertow</module>
+        <module>udp-chat</module>
+		<module>tcp-chat</module>
+		<module>java-websocket-chat</module>
+		<module>protobuf-chat</module>
+        <module>text-chat</module>
+		<module>json-chat</module>
+		<module>binary-chat</module>
 
 	</modules>
 
