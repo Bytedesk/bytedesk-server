@@ -33,6 +33,7 @@
         <module>text-chat</module>
 		<module>json-chat</module>
 		<module>binary-chat</module>
+		<module>boot-websocket</module>
 
 	</modules>
 

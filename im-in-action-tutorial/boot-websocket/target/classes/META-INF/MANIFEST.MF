@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: boot-websocket
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: SONY
+Implementation-Vendor-Id: com.javainuse
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/boot-websock
+ et/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

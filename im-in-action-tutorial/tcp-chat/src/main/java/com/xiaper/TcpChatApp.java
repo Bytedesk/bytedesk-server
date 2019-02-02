@@ -4,7 +4,7 @@ package com.xiaper;
  * Hello world!
  *
  */
-public class App 
+public class TcpChatApp
 {
     public static void main( String[] args )
     {

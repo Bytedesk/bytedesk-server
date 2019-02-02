@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="binary-chat" />
+        <module name="boot-websocket" />
         <module name="java-websocket-chat" />
         <module name="json-chat" />
         <module name="netty-websocket" />
@@ -22,14 +23,15 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="binary-chat" target="1.7" />
+      <module name="boot-websocket" target="1.8" />
       <module name="im-in-action-tutorial" target="1.5" />
       <module name="java-websocket-chat" target="1.7" />
       <module name="json-chat" target="1.7" />
       <module name="netty-websocket" target="1.7" />
       <module name="protobuf-chat" target="1.7" />
-      <module name="spring-boot-sample-websocket-jetty" target="1.5" />
-      <module name="spring-boot-sample-websocket-tomcat" target="1.5" />
-      <module name="spring-boot-sample-websocket-undertow" target="1.5" />
+      <module name="spring-boot-sample-websocket-jetty" target="1.8" />
+      <module name="spring-boot-sample-websocket-tomcat" target="1.8" />
+      <module name="spring-boot-sample-websocket-undertow" target="1.8" />
       <module name="spring-boot-websocket-stomp" target="1.8" />
       <module name="tcp-chat" target="1.7" />
       <module name="text-chat" target="1.7" />
