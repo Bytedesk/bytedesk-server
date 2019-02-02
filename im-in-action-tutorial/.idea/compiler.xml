@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="binary-chat" />
         <module name="boot-websocket" />
         <module name="java-websocket-chat" />
         <module name="json-chat" />

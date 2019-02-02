@@ -3,6 +3,7 @@ package com.xiaper;
 /**
  * Hello world!
  *
+ * https://developers.google.com/protocol-buffers/docs/proto3
  */
 public class App 
 {
