@@ -39,7 +39,9 @@ public class UDPServer {
     }
 
     public static void main(String[] args) throws Exception {
-        UDPServer client = new UDPServer(Integer.parseInt(args[0]));
+        int port = 8001;
+        // Integer.parseInt(args[0])
+        UDPServer client = new UDPServer(port);
         client.listen();
     }
 

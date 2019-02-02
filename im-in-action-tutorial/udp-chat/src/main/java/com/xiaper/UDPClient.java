@@ -17,6 +17,7 @@ public class UDPClient {
     private Scanner scanner;
 
     private UDPClient(String destinationAddr, int port) throws IOException {
+        //
         this.serverAddress = InetAddress.getByName(destinationAddr);
         this.port = port;
         udpSocket = new DatagramSocket(this.port);
@@ -24,16 +25,25 @@ public class UDPClient {
     }
 
     public static void main(String[] args) throws NumberFormatException, IOException {
-        UDPClient sender = new UDPClient(args[0], Integer.parseInt(args[1]));
+        //
+        String ip = "127.0.0.1";
+        int port = 8001;
+        // args[0], Integer.parseInt(args[1])
+        UDPClient sender = new UDPClient(ip, port);
+        //
         System.out.println("-- Running UDP Client at " + InetAddress.getLocalHost() + " --");
         sender.start();
     }
 
     private int start() throws IOException {
+
         String in;
         while (true) {
+            //
             in = scanner.nextLine();
+            //
             DatagramPacket p = new DatagramPacket(in.getBytes(), in.getBytes().length, serverAddress, port);
+            //
             this.udpSocket.send(p);
         }
     }

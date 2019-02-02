@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/boot-websocket/boot-websocket.iml" filepath="$PROJECT_DIR$/boot-websocket/boot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-websocket-chat/java-websocket-chat.iml" filepath="$PROJECT_DIR$/java-websocket-chat/java-websocket-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/json-chat/json-chat.iml" filepath="$PROJECT_DIR$/json-chat/json-chat.iml" />
@@ -11,9 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket-jetty/spring-boot-sample-websocket-jetty.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket-jetty/spring-boot-sample-websocket-jetty.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket-tomcat/spring-boot-sample-websocket-tomcat.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket-tomcat/spring-boot-sample-websocket-tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket-undertow/spring-boot-sample-websocket-undertow.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket-undertow/spring-boot-sample-websocket-undertow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" filepath="$PROJECT_DIR$/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" />
       <module fileurl="file://$PROJECT_DIR$/tcp-chat/tcp-chat.iml" filepath="$PROJECT_DIR$/tcp-chat/tcp-chat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/text-chat/text-chat.iml" filepath="$PROJECT_DIR$/text-chat/text-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/udp-chat/udp-chat.iml" filepath="$PROJECT_DIR$/udp-chat/udp-chat.iml" />
     </modules>
   </component>

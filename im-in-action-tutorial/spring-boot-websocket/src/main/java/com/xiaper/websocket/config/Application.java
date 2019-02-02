@@ -1,4 +1,4 @@
-package com.javainuse.websocket.config;
+package com.xiaper.websocket.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

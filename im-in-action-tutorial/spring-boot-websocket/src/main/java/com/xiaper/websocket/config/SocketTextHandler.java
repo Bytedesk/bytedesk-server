@@ -1,4 +1,4 @@
-package com.javainuse.websocket.config;
+package com.xiaper.websocket.config;
 
 import java.io.IOException;
 

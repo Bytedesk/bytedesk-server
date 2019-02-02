@@ -5,7 +5,7 @@ function setConnected(connected) {
 }
 
 function connect() {
-	ws = new WebSocket('ws://localhost:8080/user');
+	ws = new WebSocket('ws://localhost:8002/user');
 	ws.onmessage = function(data) {
 		helloWorld(data.data);
 	}
