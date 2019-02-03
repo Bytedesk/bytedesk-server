@@ -11,7 +11,9 @@
     <file url="file://$PROJECT_DIR$/spring-boot-sample-websocket-tomcat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-sample-websocket-undertow" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-websocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-websocket-sockjs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-websocket-stomp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-websocket-portfolio" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tcp-chat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/text-chat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/udp-chat" charset="UTF-8" />

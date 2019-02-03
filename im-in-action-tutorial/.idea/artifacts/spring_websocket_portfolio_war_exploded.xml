@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-websocket-portfolio:war exploded">
+    <output-path>$PROJECT_DIR$/spring-websocket-portfolio/target/spring-websocket-portfolio</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-websocket-portfolio" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/spring-websocket-portfolio/target/spring-websocket-portfolio/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-websocket-portfolio/web/Web" />
+    </root>
+  </artifact>
+</component>

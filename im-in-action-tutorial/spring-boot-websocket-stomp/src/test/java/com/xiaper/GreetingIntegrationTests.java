@@ -9,6 +9,8 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
+import com.xiaper.model.Greeting;
+import com.xiaper.model.HelloMessage;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

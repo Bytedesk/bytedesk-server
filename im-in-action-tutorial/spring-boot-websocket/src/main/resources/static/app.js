@@ -9,6 +9,17 @@ function connect() {
 	ws.onmessage = function(data) {
 		helloWorld(data.data);
 	}
+    ws.onopen = function(event) {
+        console.log("on open:", event);
+    }
+    ws.onclose = function(event) {
+        console.log("on close:", event);
+    }
+    ws.onerror = function(event) {
+        console.log("on error:", event);
+    }
+    // // 0 (CONNECTING)/1 (OPEN)/2 (CLOSING)/3 (CLOSED)
+    // var readyState = ws.readyState;
 	setConnected(true);
 }
 

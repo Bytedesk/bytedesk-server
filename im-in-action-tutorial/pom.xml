@@ -30,9 +30,9 @@
 		<module>tcp-chat</module>
 		<module>java-websocket-chat</module>
 		<module>protobuf-chat</module>
-		<module>json-chat</module>
 		<module>spring-boot-websocket</module>
 		<module>spring-websocket-portfolio</module>
+		<module>spring-boot-websocket-sockjs</module>
 
 	</modules>
 
