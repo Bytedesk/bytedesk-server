@@ -23,16 +23,15 @@
 
 		<module>spring-boot-websocket-stomp</module>
 		<module>netty-websocket</module>
-		<module>spring-boot-sample-websocket-jetty</module>
-		<module>spring-boot-sample-websocket-tomcat</module>
-		<module>spring-boot-sample-websocket-undertow</module>
+		<module>spring-boot-sample-websocket</module>
         <module>udp-chat</module>
 		<module>tcp-chat</module>
 		<module>java-websocket-chat</module>
 		<module>protobuf-chat</module>
 		<module>spring-boot-websocket</module>
-		<module>spring-websocket-portfolio</module>
 		<module>spring-boot-websocket-sockjs</module>
+		<module>java-server-websocket-client</module>
+		<module>websocket-spring-demo</module>
 
 	</modules>
 

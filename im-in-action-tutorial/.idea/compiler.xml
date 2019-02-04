@@ -6,28 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java-server-websocket-client" />
         <module name="java-websocket-chat" />
         <module name="netty-websocket" />
         <module name="protobuf-chat" />
-        <module name="spring-boot-sample-websocket-jetty" />
-        <module name="spring-boot-sample-websocket-tomcat" />
-        <module name="spring-boot-sample-websocket-undertow" />
+        <module name="spring-boot-sample-websocket" />
         <module name="spring-boot-websocket" />
         <module name="spring-boot-websocket-sockjs" />
         <module name="spring-boot-websocket-stomp" />
-        <module name="spring-websocket-portfolio" />
         <module name="tcp-chat" />
         <module name="udp-chat" />
+        <module name="websocket-spring-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="binary-chat" target="1.7" />
       <module name="im-in-action-tutorial" target="1.5" />
+      <module name="java-server-websocket-client" target="1.7" />
       <module name="java-websocket-chat" target="1.7" />
       <module name="json-chat" target="1.7" />
       <module name="netty-websocket" target="1.7" />
       <module name="protobuf-chat" target="1.7" />
-      <module name="spring-boot-sample-websocket-jetty" target="1.8" />
+      <module name="spring-boot-sample-websocket" target="1.8" />
       <module name="spring-boot-sample-websocket-tomcat" target="1.8" />
       <module name="spring-boot-sample-websocket-undertow" target="1.8" />
       <module name="spring-boot-websocket" target="1.8" />
@@ -37,6 +37,7 @@
       <module name="tcp-chat" target="1.7" />
       <module name="text-chat" target="1.7" />
       <module name="udp-chat" target="1.7" />
+      <module name="websocket-spring-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

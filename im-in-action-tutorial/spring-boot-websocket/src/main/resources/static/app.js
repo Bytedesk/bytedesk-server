@@ -8,6 +8,15 @@ function connect() {
 	ws = new WebSocket('ws://localhost:8002/user');
 	ws.onmessage = function(data) {
 		helloWorld(data.data);
+		//
+        // if(typeof event.data === String) {
+        //     console.log("Received data string");
+        // }
+        //
+        // if(event.data instanceof ArrayBuffer){
+        //     var buffer = event.data;
+        //     console.log("Received arraybuffer");
+        // }
 	}
     ws.onopen = function(event) {
         console.log("on open:", event);

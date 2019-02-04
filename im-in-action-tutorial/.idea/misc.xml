@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/spring-websocket-portfolio" />
+    <file type="web" url="file://$PROJECT_DIR$/websocket-spring-demo" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
