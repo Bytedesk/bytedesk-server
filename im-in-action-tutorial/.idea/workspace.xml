@@ -149,10 +149,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
+    <option name="x" value="58" />
     <option name="y" value="23" />
-    <option name="width" value="1169" />
-    <option name="height" value="939" />
+    <option name="width" value="1302" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -166,6 +166,112 @@
             <path>
               <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -191,9 +297,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
@@ -413,12 +519,12 @@
       <workItem from="1548947022411" duration="2024000" />
       <workItem from="1548981344249" duration="4090000" />
       <workItem from="1549034821458" duration="21518000" />
-      <workItem from="1549238108662" duration="7138000" />
+      <workItem from="1549238108662" duration="7926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36760000" />
+    <option name="totallyTimeSpent" value="37548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,7 +536,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="23" width="1253" height="883" extended-state="0" />
+    <frame x="58" y="23" width="1302" height="955" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50084746" side_tool="true" weight="0.24489796" />
@@ -446,7 +552,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908162" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49915254" visible="true" weight="0.2007874" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49915254" visible="true" weight="0.18345323" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32908162" />
@@ -455,7 +561,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.21518987" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32908162" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.30852342" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30800992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29603174" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -478,19 +584,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-websocket-chat/src/main/java/com/xiaper/PushTimeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#270#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-sample-websocket-undertow/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -716,17 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/xiaper/websocket/config/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/SampleJettyWebSocketsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -859,11 +941,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-websocket/src/main/resources/static/echo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/xiaper/websocket/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-websocket-portfolio:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Python 3.7 (ByteDesk) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -875,7 +1002,19 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9</last-edited>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-boot-websocket</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -899,6 +1038,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
