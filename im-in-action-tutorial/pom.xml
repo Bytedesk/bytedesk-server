@@ -34,6 +34,8 @@
 		<module>java-server-websocket-client</module>
 		<module>websocket-spring-demo</module>
 		<module>server-send-event</module>
+		<module>polling</module>
+		<module>long-polling</module>
 
 	</modules>
 
