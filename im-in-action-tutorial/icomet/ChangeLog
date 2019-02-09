@@ -1,0 +1,48 @@
+* 0.2.5
+	* Bug fixes:
+		- Fix memory leak bug again, call evhttp_send_reply_end in connection_closecb(2017-09-07)
+* 0.2.3
+	* New features:
+		- Support HTML 5 EventSource(2017-05-17)
+		- icomet.js uses HTML 5 EventSource if available(2017-05-17)
+		- Reliable deliver of broadcast during reconnect(2016-05-13)
+		- /pub supports POST(2016-02-25)
+		- Add icomet-server start options(2014-11-29)
+		- Send periodical presence online events(2014-11-29)
+	* Incompatible changes:
+		- /broadcast will automatically encode content(2015-07-25)
+	* Bug fixes:
+		- Fix noop_seq bug(2017-05-17)
+		- Fix Logger bug on multi-threads(2016-01-25)
+* 0.2.2.2
+	* New features:
+		- Add /broadcast, broadcast message to all channels(2014-08-28)
+		- Add /push, to push message without json encoded, the server will do the encoding(2014-04-15)
+	* Incompatible changes:
+		- Change some logs(2014-06-17)
+		- Message seq number starts from 1, not 0. History messages are not sent if sub seq is 0(2014-04-28)
+
+* 0.2.2.1 (2014-04-09)
+	* New features:
+		- Refactor source code
+	* Bug fixes:
+		- Fix memory leak bug, MUST call evhttp_send_reply_end in connection_closecb(2014-04-12)
+
+* 0.2.2 (2014-03-24)
+	* New features:
+		- Use new/delete instead of custom memory pool
+		- Deprecate Channel.id property
+	* Incompatible changes:
+		- Wrap json object property names in quotes(2014-04-07)
+	* Bug fixes:
+		- Fix bug on HttpQuery(evhttp_parse_query without evhttp_clear_headers)(2014-04-02)
+
+* 0.2.1 (2014-03-20)
+	* New features:
+		- Add web demos: long-polling.html forever-iframe.html
+	* Incompatible changes:
+		- The data type of seq in response is changed to int(previousely string)
+
+* 0.2.0 (2014-02-26)
+	Init this file.
+

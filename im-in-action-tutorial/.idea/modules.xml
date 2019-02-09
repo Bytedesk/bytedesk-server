@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-WebSocket/Java-WebSocket.iml" filepath="$PROJECT_DIR$/Java-WebSocket/Java-WebSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-server-websocket-client/java-server-websocket-client.iml" filepath="$PROJECT_DIR$/java-server-websocket-client/java-server-websocket-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-websocket-chat/java-websocket-chat.iml" filepath="$PROJECT_DIR$/java-websocket-chat/java-websocket-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-websocket/netty-websocket.iml" filepath="$PROJECT_DIR$/netty-websocket/netty-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/protobuf-chat/protobuf-chat.iml" filepath="$PROJECT_DIR$/protobuf-chat/protobuf-chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-send-event/server-send-event.iml" filepath="$PROJECT_DIR$/server-send-event/server-send-event.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket-sockjs/spring-boot-websocket-sockjs.iml" filepath="$PROJECT_DIR$/spring-boot-websocket-sockjs/spring-boot-websocket-sockjs.iml" />

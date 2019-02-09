@@ -21,6 +21,7 @@
 
 	<modules>
 
+		<module>Java-WebSocket</module>
 		<module>spring-boot-websocket-stomp</module>
 		<module>netty-websocket</module>
 		<module>spring-boot-sample-websocket</module>
@@ -32,6 +33,7 @@
 		<module>spring-boot-websocket-sockjs</module>
 		<module>java-server-websocket-client</module>
 		<module>websocket-spring-demo</module>
+		<module>server-send-event</module>
 
 	</modules>
 

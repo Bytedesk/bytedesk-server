@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="comet, ajax server push, long-polling, comet server, chat" />
+		<meta name="description" content="icomet is a open source C1000K comet server built with libevent, providing full server-push solution of both comet server and js client API." />
+
+		<title>iComet Example Chat</title>
+		<link rel='stylesheet' href='chat.css' type='text/css' media='all' />
+		<script src="js/jquery-1.9.1.js"></script>
+		<script src="js/json2.js"></script>
+		<script src="js/icomet.js"></script>
+		<script src="js/chat.js"></script>
+	</head>
+	<body>
+		<div id="login_form">
+			<table align="center">
+				<tr>
+					<td>Nickname</td>
+					<td><input type="text" name="nickname" size="28" value="test" /></td>
+				</tr>
+				<tr>
+					<td>Channel</td>
+					<td>
+						<input type="text" name="channel" size="28" value="abc" />
+					</td>
+				</tr>
+			</table>
+			<p><a href="#" onclick="$('*[name=channel]').val('public'); join(); return false;">Join the public channel with others</a></p>
+			<button onclick="join()">&nbsp;Join&nbsp;</button>
+		</div>
+
+		<div id="chat_window" style="display: none;">
+			<div>
+				<div id="share"></div>
+				<span id="msgs">Messages:</span>
+				<div id="recv_chat_window" class="chat_window">
+					<table id="chat">
+					</table>
+				</div>
+			</div>
+			
+			<div>
+				<div style="float: right; text-align: left">
+					<span id="errors"></span>
+				</div>
+				
+				<div style="float: left; text-align: right">
+					<a onclick="EmoticonAdv.showDropDown('btnlol', 'text')" id="btnlol" class="emoticon"></a>
+					<div id='emoticonDropDown' style='display: none;'><ul id="connies"></ul></div>
+					
+					<span id="nickname"></span> 
+					<button id="post" class="send" onclick="send()">Post</button>
+				</div>
+			</div>
+			
+			<textarea id="text" name="content"></textarea>
+		</div>
+	</body>
+</html>
