@@ -33,7 +33,8 @@
 		<module>spring-boot-websocket-sockjs</module>
 		<module>java-server-websocket-client</module>
 		<module>websocket-spring-demo</module>
-		<module>server-send-event</module>
+		<module>server-send-event-servlet</module>
+		<module>server-send-event-webflux</module>
 		<module>polling</module>
 		<module>long-polling</module>
 
