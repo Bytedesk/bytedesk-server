@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (!!window.EventSource) {
+
+            var source = new EventSource('push');
+            s = '';
+
+            source.addEventListener('message', function (e) {
+                s += e.data + "<br/>"
+                $("#msg_from_server").html(s);
+
+            });
+
+            source.addEventListener('open', function (e) {
+                console.log("连接打开.");
+            }, false);
+
+            source.addEventListener('error', function (e) {
+                if (e.readyState == EventSource.CLOSED) {
+                    console.log("连接关闭");
+                } else {
+                    console.log(e.readyState);
+                }
+            }, false);
+
+        } else {
+            console.log("没有sse");
+        }
+    </script>
+
+</body>
+</html>
