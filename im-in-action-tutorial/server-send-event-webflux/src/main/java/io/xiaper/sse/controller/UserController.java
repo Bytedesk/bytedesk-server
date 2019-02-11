@@ -8,6 +8,10 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 /**
+ *
+ * 跟Spring WebMVC类似：
+ * 原来返回User的话，那现在就返回Mono<User>；原来返回List<User>的话，那现在就返回Flux<User>
+ *
  * @author bytedesk.com on 2019/2/11
  */
 @RestController
@@ -41,10 +45,10 @@ public class UserController {
 
     /**
      * localhost:7001/user
-     *
+     * produces = MediaType.APPLICATION_STREAM_JSON_VALUE
      * @return
      */
-    @GetMapping("")
+    @GetMapping(value = "")
     public Flux<User> findAll() {
         return this.userService.findAll();
     }
