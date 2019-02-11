@@ -20,14 +20,18 @@ public class RouterConfig {
     private TimeHandler timeHandler;
 
     /**
+     * https://blog.csdn.net/get_set/article/details/79480233
+     *
      * http://localhost:8002/date
      * http://localhost:8002/time
+     * http://localhost:8002/times
      *
      * @return
      */
     @Bean
     public RouterFunction<ServerResponse> timerRouter() {
         return route(GET("/time"), req -> timeHandler.getTime(req))
-                .andRoute(GET("/date"), timeHandler::getDate);
+                .andRoute(GET("/date"), timeHandler::getDate)
+                .andRoute(GET("/times"), timeHandler::sendTimePerSec);
     }
 }
