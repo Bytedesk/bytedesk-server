@@ -14,7 +14,7 @@
 	<artifactId>server-send-event-servlet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>server-send-event</name>
+	<name>server-send-event-servlet</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

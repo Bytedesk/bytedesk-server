@@ -14,7 +14,7 @@
 	<artifactId>server-send-event-webflux</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>server-send-event</name>
+	<name>server-send-event-webflux</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -26,6 +26,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
+		<!--html thymeleaf 模板引擎-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
 		<dependency>
