@@ -17,11 +17,6 @@ public class SseController {
     @ResponseBody
     public String push() {
         Random r = new Random();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         return "data:Testing 1,2,3" + r.nextInt() +"\n\n";
     }
 

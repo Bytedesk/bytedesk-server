@@ -38,6 +38,7 @@
       <module name="server-send-event" target="1.8" />
       <module name="server-send-event-servlet" target="1.8" />
       <module name="server-send-event-webflux" target="1.8" />
+      <module name="shiro-test" target="1.8" />
       <module name="spring-boot-sample-websocket" target="1.8" />
       <module name="spring-boot-sample-websocket-tomcat" target="1.8" />
       <module name="spring-boot-sample-websocket-undertow" target="1.8" />
