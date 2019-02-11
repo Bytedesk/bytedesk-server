@@ -13,8 +13,8 @@
         <module name="netty-websocket" />
         <module name="polling" />
         <module name="protobuf-chat" />
-        <module name="server-send-event-servlet" />
         <module name="server-send-event-webflux" />
+        <module name="server-send-event-webmvc" />
         <module name="spring-boot-sample-websocket" />
         <module name="spring-boot-websocket" />
         <module name="spring-boot-websocket-sockjs" />
@@ -36,8 +36,8 @@
       <module name="polling" target="1.8" />
       <module name="protobuf-chat" target="1.7" />
       <module name="server-send-event" target="1.8" />
-      <module name="server-send-event-servlet" target="1.8" />
       <module name="server-send-event-webflux" target="1.8" />
+      <module name="server-send-event-webmvc" target="1.8" />
       <module name="shiro-test" target="1.8" />
       <module name="spring-boot-sample-websocket" target="1.8" />
       <module name="spring-boot-sample-websocket-tomcat" target="1.8" />

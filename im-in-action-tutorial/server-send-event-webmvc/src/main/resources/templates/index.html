@@ -12,6 +12,7 @@
     <script type="text/javascript">
         if (!!window.EventSource) {
 
+            // var source = new EventSource('sse');
             var source = new EventSource('push');
 
             source.addEventListener('message', function (e) {

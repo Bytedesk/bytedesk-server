@@ -11,10 +11,10 @@
 	</parent>
 
 	<groupId>io.xiaper</groupId>
-	<artifactId>server-send-event-servlet</artifactId>
+	<artifactId>server-send-event-webmvc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>server-send-event-servlet</name>
+	<name>server-send-event-webmvc</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

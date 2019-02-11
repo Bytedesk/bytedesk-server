@@ -52,20 +52,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/resources/templates/index.html">
+      <file leaf-file-name="RouterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/controller/RouterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding>
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerSendEventServletApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/ServerSendEventServletApplication.java">
+      <file leaf-file-name="SseController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/controller/SseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="542">
+              <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -158,8 +174,8 @@
         <option value="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/server-send-event-servlet/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/server-send-event-servlet/pom.xml" />
-        <option value="$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/controller/SseController.java" />
         <option value="$PROJECT_DIR$/server-send-event-servlet/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/controller/SseController.java" />
       </list>
     </option>
   </component>
@@ -207,10 +223,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="115" />
-    <option name="width" value="1320" />
-    <option name="height" value="867" />
+    <option name="x" value="74" />
+    <option name="y" value="99" />
+    <option name="width" value="1340" />
+    <option name="height" value="885" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -458,7 +474,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerSendEventApplication">
+  <component name="RunManager" selected="Spring Boot.ServerSendEventWebMvcApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -561,10 +577,6 @@
       <module name="spring-boot-sample-websocket-undertow" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="samples.websocket.undertow.SampleUndertowWebSocketsApplication" />
     </configuration>
-    <configuration name="ServerSendEventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="server-send-event-servlet" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.sse.ServerSendEventServletApplication" />
-    </configuration>
     <configuration name="ServerSendEventWebFluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="server-send-event-webflux" />
       <extension name="coverage">
@@ -574,6 +586,11 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.sse.ServerSendEventWebFluxApplication" />
+    </configuration>
+    <configuration name="ServerSendEventWebMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-send-event-webmvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.sse.ServerSendEventWebMvcApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ShiroTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shiro-test" />
@@ -675,15 +692,15 @@
       <item itemvalue="Spring Boot.SampleUndertowWebSocketsApplication" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.SpringBootWebsocketSockjsApplication" />
-      <item itemvalue="Spring Boot.ServerSendEventApplication" />
+      <item itemvalue="Spring Boot.ServerSendEventWebMvcApplication" />
       <item itemvalue="Spring Boot.PollingApplication" />
       <item itemvalue="Spring Boot.LongPollingApplication" />
+      <item itemvalue="Spring Boot.ShiroTestApplication" />
       <item itemvalue="Application.UdpChatApp" />
       <item itemvalue="Application.UDPServer" />
       <item itemvalue="Application.UDPClient" />
-      <item itemvalue="Spring Boot.ServerSendEventWebFluxApplication" />
       <item itemvalue="JUnit.ServerSendEventApplicationTests" />
-      <item itemvalue="Spring Boot.ShiroTestApplication" />
+      <item itemvalue="Spring Boot.ServerSendEventWebFluxApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -714,7 +731,7 @@
       <workItem from="1549585886725" duration="694000" />
       <workItem from="1549591043327" duration="15939000" />
       <workItem from="1549853175616" duration="7535000" />
-      <workItem from="1549876643891" duration="9758000" />
+      <workItem from="1549876643891" duration="10408000" />
     </task>
     <servers />
   </component>
@@ -739,7 +756,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71474000" />
+    <option name="totallyTimeSpent" value="72124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -751,7 +768,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="120" width="1248" height="862" extended-state="0" />
+    <frame x="64" y="109" width="1326" height="930" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50084746" side_tool="true" weight="0.24341086" />
@@ -773,10 +791,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32908162" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33873144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19283065" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32908162" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.30852342" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.2835821" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.3169782" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -1121,13 +1139,6 @@
     <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/resources/templates/error/403.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/controller/RouterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-send-event-webflux/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -1142,29 +1153,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/controller/SseController.java">
+    <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/ServerSendEventWebMvcApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/ServerSendEventServletApplication.java">
+    <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/controller/RouterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="240">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-send-event-servlet/src/main/java/io/xiaper/sse/controller/SseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

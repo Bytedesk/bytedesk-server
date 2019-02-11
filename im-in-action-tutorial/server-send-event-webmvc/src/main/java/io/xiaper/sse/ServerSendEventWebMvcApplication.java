@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author xiaper.io
  */
 @SpringBootApplication
-public class ServerSendEventServletApplication {
+public class ServerSendEventWebMvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServerSendEventServletApplication.class, args);
+		SpringApplication.run(ServerSendEventWebMvcApplication.class, args);
 	}
 
 }

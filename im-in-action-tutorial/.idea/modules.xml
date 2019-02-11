@@ -10,8 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/netty-websocket/netty-websocket.iml" filepath="$PROJECT_DIR$/netty-websocket/netty-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/polling/polling.iml" filepath="$PROJECT_DIR$/polling/polling.iml" />
       <module fileurl="file://$PROJECT_DIR$/protobuf-chat/protobuf-chat.iml" filepath="$PROJECT_DIR$/protobuf-chat/protobuf-chat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/server-send-event-servlet/server-send-event-servlet.iml" filepath="$PROJECT_DIR$/server-send-event-servlet/server-send-event-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-send-event-webflux/server-send-event-webflux.iml" filepath="$PROJECT_DIR$/server-send-event-webflux/server-send-event-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-send-event-webmvc/server-send-event-webmvc.iml" filepath="$PROJECT_DIR$/server-send-event-webmvc/server-send-event-webmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket-sockjs/spring-boot-websocket-sockjs.iml" filepath="$PROJECT_DIR$/spring-boot-websocket-sockjs/spring-boot-websocket-sockjs.iml" />
