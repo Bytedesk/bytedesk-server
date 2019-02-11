@@ -22,9 +22,9 @@ public class RouterConfig {
     /**
      * https://blog.csdn.net/get_set/article/details/79480233
      *
-     * http://localhost:8002/date
-     * http://localhost:8002/time
-     * http://localhost:8002/times
+     * http://localhost:7001/date
+     * http://localhost:7001/time
+     * http://localhost:7001/times
      *
      * @return
      */

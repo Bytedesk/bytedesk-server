@@ -12,7 +12,7 @@ public class HelloController {
 
 
     /**
-     * http://localhost:8002/hello
+     * http://localhost:7001/hello
      *
      * @return
      */
