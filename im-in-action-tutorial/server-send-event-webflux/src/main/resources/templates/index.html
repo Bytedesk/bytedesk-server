@@ -6,7 +6,33 @@
 </head>
 <body>
 
-hello webflux
+    hello webflux
+
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (!!window.EventSource) {
+
+            var source = new EventSource('stream-sse');
+
+            source.addEventListener('message', function (e) {
+                console.log('message:', e);
+            }, false);
+
+            source.addEventListener('open', function (e) {
+                console.log('open:', e);
+            }, false);
+
+            source.addEventListener('error', function (e) {
+                console.log('error:', e);
+                if (e.readyState == EventSource.CLOSED) {
+                    console.log("连接关闭");
+                }
+            }, false);
+
+        } else {
+            console.log("没有sse");
+        }
+    </script>
 
 </body>
 </html>

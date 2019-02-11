@@ -18,6 +18,7 @@ import java.util.concurrent.Executors;
 
 /**
  * https://www.baeldung.com/spring-mvc-sse-streams
+ * https://golb.hplar.ch/2017/03/Server-Sent-Events-with-Spring.html
  *
  * @author bytedesk.com on 2019/2/9
  */
