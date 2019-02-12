@@ -20,7 +20,7 @@
         <module name="spring-boot-websocket-sockjs" />
         <module name="spring-boot-websocket-stomp" />
         <module name="tcp-chat" />
-        <module name="udp-chat" />
+        <module name="udp-chat-server" />
         <module name="websocket-spring-demo" />
       </profile>
     </annotationProcessing>
@@ -48,7 +48,7 @@
       <module name="spring-websocket-portfolio" target="1.8" />
       <module name="tcp-chat" target="1.7" />
       <module name="text-chat" target="1.7" />
-      <module name="udp-chat" target="1.7" />
+      <module name="udp-chat-server" target="1.7" />
       <module name="websocket-spring-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

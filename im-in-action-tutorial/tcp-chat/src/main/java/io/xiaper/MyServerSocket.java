@@ -1,4 +1,4 @@
-package com.xiaper;
+package io.xiaper;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

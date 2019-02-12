@@ -1,4 +1,4 @@
-package com.xiaper;
+package io.xiaper;
 
 /**
  * Hello world!

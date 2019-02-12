@@ -25,7 +25,7 @@
 		<module>spring-boot-websocket-stomp</module>
 		<module>netty-websocket</module>
 		<module>spring-boot-sample-websocket</module>
-        <module>udp-chat</module>
+        <module>udp-chat-server</module>
 		<module>tcp-chat</module>
 		<module>java-websocket-chat</module>
 		<module>protobuf-chat</module>
