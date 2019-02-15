@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-server-websocket-client" />
-        <module name="java-websocket-chat" />
+        <module name="java-websocket" />
         <module name="long-polling" />
         <module name="netty-websocket" />
         <module name="polling" />
@@ -28,6 +28,7 @@
       <module name="im-in-action-tutorial" target="1.5" />
       <module name="java-server-websocket-client" target="1.7" />
       <module name="Java-WebSocket" target="1.6" />
+      <module name="java-websocket" target="1.7" />
       <module name="java-websocket-chat" target="1.7" />
       <module name="json-chat" target="1.7" />
       <module name="long-polling" target="1.8" />
