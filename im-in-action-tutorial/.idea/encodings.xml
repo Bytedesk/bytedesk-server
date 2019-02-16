@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Java-WebSocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-server-websocket-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java-websocket-chat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/long-polling" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-websocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/polling" charset="UTF-8" />
@@ -12,6 +10,8 @@
     <file url="file://$PROJECT_DIR$/server-send-event-webflux" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-send-event-webmvc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-sample-websocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-sockjs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-stomp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-websocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-websocket-sockjs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-websocket-stomp" charset="UTF-8" />

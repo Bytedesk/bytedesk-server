@@ -15,9 +15,9 @@
         <module name="server-send-event-webflux" />
         <module name="server-send-event-webmvc" />
         <module name="spring-boot-sample-websocket" />
+        <module name="spring-boot-sockjs" />
+        <module name="spring-boot-stomp" />
         <module name="spring-boot-websocket" />
-        <module name="spring-boot-websocket-sockjs" />
-        <module name="spring-boot-websocket-stomp" />
         <module name="tcp-chat" />
         <module name="udp-chat-server" />
         <module name="websocket-spring-demo" />
@@ -42,9 +42,9 @@
       <module name="spring-boot-sample-websocket" target="1.8" />
       <module name="spring-boot-sample-websocket-tomcat" target="1.8" />
       <module name="spring-boot-sample-websocket-undertow" target="1.8" />
+      <module name="spring-boot-sockjs" target="1.8" />
+      <module name="spring-boot-stomp" target="1.8" />
       <module name="spring-boot-websocket" target="1.8" />
-      <module name="spring-boot-websocket-sockjs" target="1.8" />
-      <module name="spring-boot-websocket-stomp" target="1.8" />
       <module name="spring-websocket-portfolio" target="1.8" />
       <module name="tcp-chat" target="1.7" />
       <module name="text-chat" target="1.7" />
