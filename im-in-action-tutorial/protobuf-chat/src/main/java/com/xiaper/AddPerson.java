@@ -9,7 +9,13 @@ import java.io.*;
  */
 public class AddPerson {
 
-    // This function fills in a Person message based on user input.
+    /**
+     * This function fills in a Person message based on user input.
+     * @param stdin
+     * @param stdout
+     * @return
+     * @throws IOException
+     */
     static AddressBookProtos.Person PromptForAddress(BufferedReader stdin,
                                                      PrintStream stdout) throws IOException {
         AddressBookProtos.Person.Builder person = AddressBookProtos.Person.newBuilder();
