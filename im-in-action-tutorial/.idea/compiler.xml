@@ -6,20 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-server-websocket-client" />
-        <module name="java-websocket" />
-        <module name="long-polling" />
-        <module name="netty-websocket" />
-        <module name="polling" />
-        <module name="protobuf-chat" />
-        <module name="server-send-event-webflux" />
-        <module name="server-send-event-webmvc" />
+        <module name="spring-boot-chat" />
         <module name="spring-boot-sample-websocket" />
         <module name="spring-boot-sockjs" />
         <module name="spring-boot-stomp" />
         <module name="spring-boot-websocket" />
-        <module name="tcp-chat" />
-        <module name="udp-chat-server" />
         <module name="websocket-spring-demo" />
       </profile>
     </annotationProcessing>
@@ -39,6 +30,7 @@
       <module name="server-send-event-webflux" target="1.8" />
       <module name="server-send-event-webmvc" target="1.8" />
       <module name="shiro-test" target="1.8" />
+      <module name="spring-boot-chat" target="1.8" />
       <module name="spring-boot-sample-websocket" target="1.8" />
       <module name="spring-boot-sample-websocket-tomcat" target="1.8" />
       <module name="spring-boot-sample-websocket-undertow" target="1.8" />

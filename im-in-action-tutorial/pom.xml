@@ -5,7 +5,7 @@
 
 	<groupId>com.xiaper</groupId>
 	<artifactId>im-in-action-tutorial</artifactId>
-	<version>2.1.2</version>
+	<version>2.1.3</version>
 
 	<packaging>pom</packaging>
 	<name>ByteDesk Spring Boot Projects</name>
@@ -21,25 +21,13 @@
 
 	<modules>
 
-		<module>Java-WebSocket</module>
-
-		<module>netty-websocket</module>
 		<module>spring-boot-sample-websocket</module>
-        <module>udp-chat-server</module>
-		<module>tcp-chat</module>
-		<module>java-websocket</module>
-		<module>protobuf-chat</module>
-
 		<module>spring-boot-websocket</module>
 		<module>spring-boot-sockjs</module>
 		<module>spring-boot-stomp</module>
-
-		<module>java-server-websocket-client</module>
 		<module>websocket-spring-demo</module>
-		<module>server-send-event-webmvc</module>
-		<module>server-send-event-webflux</module>
-		<module>polling</module>
-		<module>long-polling</module>
+
+		<module>spring-boot-chat</module>
 
 	</modules>
 
