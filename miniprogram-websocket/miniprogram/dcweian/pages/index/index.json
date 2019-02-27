@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "websocket 聊天实例",
+  "usingComponents": {
+    "i-notice-bar": "/components/iview/notice-bar/index",
+    "i-button": "/components/iview/button/index",
+    "i-message": "/components/iview/message/index"
+  }
+}

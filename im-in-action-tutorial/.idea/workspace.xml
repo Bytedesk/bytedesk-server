@@ -75,11 +75,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-chat/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-stomp/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-stomp/src/main/resources/static/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-sample-websocket/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="echo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-sample-websocket/src/main/resources/static/echo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -221,16 +255,18 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
+    <option name="x" value="57" />
     <option name="y" value="31" />
-    <option name="width" value="1151" />
-    <option name="height" value="827" />
+    <option name="width" value="1309" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,15 +341,43 @@
             <path>
               <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-stomp" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="im-in-action-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,6 +570,7 @@
       <workItem from="1551189163628" duration="1684000" />
       <workItem from="1551191036764" duration="1887000" />
       <workItem from="1551193314829" duration="171000" />
+      <workItem from="1551233259066" duration="59000" />
     </task>
     <servers />
   </component>
@@ -530,7 +595,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92256000" />
+    <option name="totallyTimeSpent" value="92315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +607,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="31" width="1151" height="827" extended-state="0" />
+    <frame x="57" y="31" width="1309" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -567,7 +632,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32908162" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.30852342" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.2596934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.2549329" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -591,18 +656,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protobuf-chat/src/main/java/com/xiaper/proto/addressbook.proto" />
-    <entry file="file://$PROJECT_DIR$/protobuf-chat/src/main/java/com/xiaper/AddPerson.java" />
-    <entry file="file://$PROJECT_DIR$/protobuf-chat/src/main/java/com/xiaper/proto/readme.md" />
-    <entry file="file://$PROJECT_DIR$/java-server-websocket-client/pom.xml" />
     <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/xiaper/websocket/config/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,10 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#2356#3660#0" expanded="true" />
-            <element signature="e#3659#3660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,7 +861,33 @@
     <entry file="file://$PROJECT_DIR$/spring-boot-chat/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-stomp/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-stomp/src/main/resources/static/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-websocket/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-sample-websocket/src/main/resources/static/echo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
         </state>
       </provider>
     </entry>
