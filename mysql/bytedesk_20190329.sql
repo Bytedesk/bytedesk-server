@@ -11594,7 +11594,6 @@ CREATE TABLE `users_role` (
 INSERT INTO `users_role` (`users_id`, `role_id`) VALUES
 (6, 15),
 (15, 14),
-(15, 20),
 (161413, 15),
 (161413, 21),
 (161435, 17),
