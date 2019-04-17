@@ -397,11 +397,11 @@ CREATE TABLE `block` (
   `id` bigint(20) NOT NULL,
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
-  `bid` varchar(255) CHARACTER SET utf8 NOT NULL,
-  `note` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `bid` varchar(255) CHARACTER SET utf8mb4 NOT NULL,
+  `note` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
   `blocked_user_id` bigint(20) DEFAULT NULL,
   `users_id` bigint(20) DEFAULT NULL,
-  `by_type` varchar(255) CHARACTER SET utf8 DEFAULT NULL
+  `by_type` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -422,7 +422,7 @@ CREATE TABLE `browse` (
   `bid` varchar(255) NOT NULL,
   `actioned` varchar(255) DEFAULT NULL,
   `actioned_at` datetime DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -443,7 +443,7 @@ CREATE TABLE `browse_invite` (
   `to_user_id` bigint(20) DEFAULT NULL,
   `workgroup_id` bigint(20) NOT NULL,
   `browse_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -460,7 +460,7 @@ CREATE TABLE `category` (
   `users_id` bigint(20) NOT NULL,
   `cid` varchar(255) NOT NULL,
   `by_type` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `category`
@@ -513,7 +513,7 @@ CREATE TABLE `comments` (
   `article_id` bigint(20) DEFAULT NULL,
   `users_id` bigint(20) NOT NULL,
   `post_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -530,7 +530,7 @@ CREATE TABLE `company` (
   `description` varchar(255) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
   `users_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `company`
@@ -596,7 +596,7 @@ INSERT INTO `company` (`id`, `created_at`, `updated_at`, `avatar`, `cid`, `descr
 CREATE TABLE `company_region` (
   `company_id` bigint(20) NOT NULL,
   `region_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `company_region`
@@ -988,7 +988,7 @@ CREATE TABLE `country` (
   `id` bigint(20) NOT NULL,
   `cid` varchar(255) NOT NULL,
   `name` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1006,7 +1006,7 @@ CREATE TABLE `customer` (
   `email` varchar(255) DEFAULT NULL,
   `mobile` varchar(255) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1024,7 +1024,7 @@ CREATE TABLE `cuw` (
   `count` int(11) DEFAULT NULL,
   `cid` varchar(255) NOT NULL,
   `category_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `cuw`
@@ -1078,7 +1078,7 @@ CREATE TABLE `department` (
   `users_id` bigint(20) NOT NULL,
   `company_id` bigint(20) DEFAULT NULL,
   `department_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1099,7 +1099,7 @@ CREATE TABLE `feedback` (
   `is_replied` bit(1) DEFAULT NULL,
   `reply_content` varchar(255) DEFAULT NULL,
   `url` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1116,7 +1116,7 @@ CREATE TABLE `fingerprint` (
   `users_id` bigint(20) NOT NULL,
   `name` varchar(255) DEFAULT NULL,
   `is_system` bit(1) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `fingerprint`
@@ -1272,7 +1272,7 @@ CREATE TABLE `func_info` (
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   `func_scope_category_id` int(11) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1294,7 +1294,7 @@ CREATE TABLE `groups` (
   `announcement` varchar(255) DEFAULT NULL,
   `is_dismissed` bit(1) DEFAULT NULL,
   `num` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `groups`
@@ -1429,7 +1429,7 @@ CREATE TABLE `groups_muted` (
 
 CREATE TABLE `hibernate_sequence` (
   `next_val` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `hibernate_sequence`
@@ -1461,7 +1461,7 @@ CREATE TABLE `invite` (
   `to_user_id` bigint(20) DEFAULT NULL,
   `by_type` varchar(255) DEFAULT NULL,
   `group_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1486,7 +1486,7 @@ CREATE TABLE `ip` (
   `isp_id` varchar(255) DEFAULT NULL,
   `region` varchar(255) DEFAULT NULL,
   `region_id` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1513,7 +1513,7 @@ CREATE TABLE `leave_message` (
   `claimer_id` bigint(20) DEFAULT NULL,
   `sub_domain` varchar(255) DEFAULT NULL,
   `my_summary` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1524,39 +1524,39 @@ CREATE TABLE `leave_message` (
 CREATE TABLE `message` (
   `id` bigint(20) NOT NULL,
   `created_at` datetime DEFAULT NULL,
-  `by_type` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `by_type` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
   `queue_id` bigint(20) DEFAULT NULL,
   `thread_id` bigint(20) DEFAULT NULL,
   `users_id` bigint(20) DEFAULT NULL,
-  `mid` varchar(255) CHARACTER SET utf8 NOT NULL,
-  `description` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `format` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `image_url` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `label` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `mid` varchar(255) CHARACTER SET utf8mb4 NOT NULL,
+  `description` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `format` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `image_url` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `label` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
   `length` int(11) DEFAULT NULL,
   `location_x` double DEFAULT NULL,
   `location_y` double DEFAULT NULL,
-  `media_id` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `pic_url` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `media_id` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `pic_url` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
   `is_played` bit(1) DEFAULT NULL,
   `scale` double DEFAULT NULL,
-  `thumb_media_id` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `title` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `url` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `video_or_short_thumb_url` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `video_or_short_url` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `voice_url` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `wid` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `client` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `cid` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `gid` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `thumb_media_id` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `title` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `url` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `video_or_short_thumb_url` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `video_or_short_url` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `voice_url` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `wid` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `client` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `cid` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `gid` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
   `company_id` bigint(20) DEFAULT NULL,
   `questionnaire_id` bigint(20) DEFAULT NULL,
-  `file_url` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `status` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `session_type` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `file_url` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `status` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `session_type` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
-  `content` varchar(512) CHARACTER SET utf8 DEFAULT NULL,
+  `content` varchar(512) CHARACTER SET utf8mb4 DEFAULT NULL,
   `destroy_after_reading` bit(1) DEFAULT NULL,
   `destroy_after_length` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1570,7 +1570,7 @@ CREATE TABLE `message` (
 CREATE TABLE `message_answer` (
   `message_id` bigint(20) NOT NULL,
   `answer_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1631,7 +1631,7 @@ CREATE TABLE `message_status` (
   `status` varchar(255) DEFAULT NULL,
   `message_id` bigint(20) DEFAULT NULL,
   `users_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1642,7 +1642,7 @@ CREATE TABLE `message_status` (
 CREATE TABLE `message_workgroup` (
   `message_id` bigint(20) NOT NULL,
   `workgroup_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `message_workgroup`
@@ -1666,7 +1666,7 @@ CREATE TABLE `mini_program_info` (
   `visit_status` int(11) DEFAULT NULL,
   `wid` varchar(255) NOT NULL,
   `wechat_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1678,7 +1678,7 @@ CREATE TABLE `monitor` (
   `id` bigint(20) NOT NULL,
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1749,7 +1749,7 @@ CREATE TABLE `oauth_client_details` (
   `refresh_token_validity` int(11) DEFAULT NULL,
   `additional_information` longtext,
   `autoapprove` varchar(256) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `oauth_client_details`
@@ -1801,7 +1801,7 @@ CREATE TABLE `payment` (
   `total_fee` varchar(255) DEFAULT NULL,
   `trade_type` varchar(255) DEFAULT NULL,
   `by_type` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -2078,7 +2078,7 @@ CREATE TABLE `questionnaire` (
   `name` varchar(255) DEFAULT NULL,
   `qid` varchar(255) NOT NULL,
   `users_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `questionnaire`
@@ -2103,7 +2103,7 @@ CREATE TABLE `questionnaire_answer` (
   `questionnaire_item_id` bigint(20) NOT NULL,
   `questionnaire_item_item_id` bigint(20) NOT NULL,
   `users_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -2114,7 +2114,7 @@ CREATE TABLE `questionnaire_answer` (
 CREATE TABLE `questionnaire_answer_item` (
   `questionnaire_answer_id` bigint(20) NOT NULL,
   `questionnaire_item_item_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -2131,7 +2131,7 @@ CREATE TABLE `questionnaire_item` (
   `by_type` varchar(255) DEFAULT NULL,
   `questionnaire_id` bigint(20) NOT NULL,
   `users_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `questionnaire_item`
@@ -2154,7 +2154,7 @@ CREATE TABLE `questionnaire_item_item` (
   `qid` varchar(255) NOT NULL,
   `questionnaire_item_id` bigint(20) NOT NULL,
   `users_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `questionnaire_item_item`
@@ -2185,7 +2185,7 @@ CREATE TABLE `queue` (
   `thread_id` bigint(20) DEFAULT NULL,
   `actioned_at` datetime DEFAULT NULL,
   `client` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -2250,7 +2250,7 @@ CREATE TABLE `region` (
   `name` varchar(255) DEFAULT NULL,
   `parent_id` bigint(20) DEFAULT NULL,
   `by_type` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `region`
@@ -5593,7 +5593,7 @@ CREATE TABLE `robot` (
   `rid` varchar(255) NOT NULL,
   `robot_name` varchar(255) DEFAULT NULL,
   `users_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -5607,7 +5607,7 @@ CREATE TABLE `role` (
   `value` varchar(255) DEFAULT NULL,
   `by_type` varchar(255) DEFAULT NULL,
   `descriptions` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `role`
@@ -5637,7 +5637,7 @@ INSERT INTO `role` (`id`, `name`, `value`, `by_type`, `descriptions`) VALUES
 CREATE TABLE `role_authority` (
   `role_id` bigint(20) NOT NULL,
   `authority_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `role_authority`
@@ -5663,7 +5663,7 @@ CREATE TABLE `setting` (
   `users_id` bigint(20) NOT NULL,
   `is_web_notification` bit(1) DEFAULT NULL,
   `score` int(11) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -5703,7 +5703,7 @@ CREATE TABLE `statistic` (
   `accept_rate_lt5m` double DEFAULT NULL,
   `accept_rate_lt3m` double DEFAULT NULL,
   `leave_queue_rate` int(11) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `statistic`
@@ -6071,7 +6071,7 @@ CREATE TABLE `statistic_detail` (
   `accept_count_lt5m` int(11) DEFAULT NULL,
   `response_count_lt30s` int(11) DEFAULT NULL,
   `agent_thread_count` int(11) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -6088,7 +6088,7 @@ CREATE TABLE `status` (
   `users_id` bigint(20) NOT NULL,
   `session_id` varchar(255) DEFAULT NULL,
   `by_type` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `status`
@@ -11221,7 +11221,7 @@ CREATE TABLE `subscribe` (
   `leaved` tinyint(1) DEFAULT '0',
   `thread_id` bigint(20) DEFAULT NULL,
   `users_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11237,7 +11237,7 @@ CREATE TABLE `synonyms` (
   `users_id` bigint(20) NOT NULL,
   `is_synonym` bit(1) DEFAULT NULL,
   `sid` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11248,7 +11248,7 @@ CREATE TABLE `synonyms` (
 CREATE TABLE `synonyms_related` (
   `standard_id` bigint(20) NOT NULL,
   `synonym_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11306,7 +11306,7 @@ CREATE TABLE `tag` (
   `users_id` bigint(20) NOT NULL,
   `name` varchar(255) DEFAULT NULL,
   `is_robot` bit(1) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11319,7 +11319,7 @@ CREATE TABLE `template` (
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   `users_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11353,7 +11353,7 @@ CREATE TABLE `thread` (
   `is_rated` bit(1) DEFAULT NULL,
   `close_type` varchar(255) DEFAULT NULL,
   `client` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11364,7 +11364,7 @@ CREATE TABLE `thread` (
 CREATE TABLE `thread_agent` (
   `thread_id` bigint(20) NOT NULL,
   `users_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11428,7 +11428,7 @@ CREATE TABLE `transfer` (
   `from_user_id` bigint(20) DEFAULT NULL,
   `thread_id` bigint(20) DEFAULT NULL,
   `to_user_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11444,7 +11444,7 @@ CREATE TABLE `url` (
   `url` varchar(255) DEFAULT NULL,
   `description` longtext,
   `keywords` longtext
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11485,7 +11485,7 @@ CREATE TABLE `users` (
   `device_token_development` varchar(255) DEFAULT NULL,
   `device_token_production` varchar(255) DEFAULT NULL,
   `app_id` bigint(20) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `users`
@@ -11525,7 +11525,7 @@ INSERT INTO `users` (`id`, `created_at`, `updated_at`, `avatar`, `email`, `is_en
 CREATE TABLE `users_authority` (
   `users_id` bigint(20) NOT NULL,
   `authority_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11536,7 +11536,7 @@ CREATE TABLE `users_authority` (
 CREATE TABLE `users_follow` (
   `users_id` bigint(20) NOT NULL,
   `follow_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `users_follow`
@@ -11555,7 +11555,7 @@ INSERT INTO `users_follow` (`users_id`, `follow_id`) VALUES
 CREATE TABLE `users_robot` (
   `users_id` bigint(20) NOT NULL,
   `robot_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `users_robot`
@@ -11585,7 +11585,7 @@ INSERT INTO `users_robot` (`users_id`, `robot_id`) VALUES
 CREATE TABLE `users_role` (
   `users_id` bigint(20) NOT NULL,
   `role_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `users_role`
@@ -11657,7 +11657,7 @@ INSERT INTO `users_shield` (`users_id`, `shield_id`) VALUES
 CREATE TABLE `users_tag` (
   `users_id` bigint(20) NOT NULL,
   `tag_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11677,7 +11677,7 @@ CREATE TABLE `validations` (
   `note` varchar(255) DEFAULT NULL,
   `end_date` datetime DEFAULT NULL,
   `start_date` datetime DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `validations`
@@ -11734,7 +11734,7 @@ CREATE TABLE `wechat` (
   `users_id` bigint(20) NOT NULL,
   `workgroup_id` bigint(20) DEFAULT NULL,
   `wx_number` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `wechat`
@@ -11753,7 +11753,7 @@ INSERT INTO `wechat` (`id`, `created_at`, `updated_at`, `aes_key`, `alias`, `app
 CREATE TABLE `wechat_funcinfo` (
   `wechat_id` bigint(20) NOT NULL,
   `funcinfo_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11777,7 +11777,7 @@ CREATE TABLE `wechat_menu` (
   `url` varchar(255) DEFAULT NULL,
   `users_id` bigint(20) NOT NULL,
   `by_type` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11807,7 +11807,7 @@ CREATE TABLE `wechat_userinfo` (
   `group_id` int(11) DEFAULT NULL,
   `head_img_url` varchar(255) DEFAULT NULL,
   `union_id` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11823,7 +11823,7 @@ CREATE TABLE `wechat_usertag` (
   `name` varchar(255) DEFAULT NULL,
   `tag_id` int(11) DEFAULT NULL,
   `wechat_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -11864,7 +11864,7 @@ CREATE TABLE `workgroup` (
   `max_queue_count_exceed_tip` varchar(255) DEFAULT NULL,
   `max_queue_second` int(11) DEFAULT NULL,
   `max_queue_second_exceed_tip` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `workgroup`
@@ -11888,7 +11888,7 @@ INSERT INTO `workgroup` (`id`, `created_at`, `updated_at`, `accept_tip`, `avatar
 CREATE TABLE `workgroup_app` (
   `workgroup_id` bigint(20) NOT NULL,
   `app_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `workgroup_app`
@@ -11908,7 +11908,7 @@ INSERT INTO `workgroup_app` (`workgroup_id`, `app_id`) VALUES
 CREATE TABLE `workgroup_users` (
   `users_id` bigint(20) NOT NULL,
   `workgroup_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `workgroup_users`
@@ -11946,7 +11946,7 @@ INSERT INTO `workgroup_users` (`users_id`, `workgroup_id`) VALUES
 CREATE TABLE `workgroup_worktime` (
   `workgroup_id` bigint(20) NOT NULL,
   `worktime_id` bigint(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `workgroup_worktime`
@@ -11981,7 +11981,7 @@ CREATE TABLE `work_time` (
   `updated_at` datetime DEFAULT NULL,
   `end_time` time DEFAULT NULL,
   `start_time` time DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- 转存表中的数据 `work_time`
