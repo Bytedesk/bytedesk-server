@@ -2229,13 +2229,6 @@ CREATE TABLE `recharge` (
   `users_id` bigint(20) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- 转存表中的数据 `recharge`
---
-
-INSERT INTO `recharge` (`id`, `created_at`, `updated_at`, `description`, `fee_type`, `pay_type`, `rid`, `status`, `total_fee`, `trade_type`, `users_id`) VALUES
-(860207, '2019-03-14 22:15:34', '2019-03-14 22:15:34', NULL, 'CNY', 'wechat', '201903151115331', 'waiting', '0.1', 'NATIVE', 15);
-
 -- --------------------------------------------------------
 
 --
@@ -11735,14 +11728,6 @@ CREATE TABLE `wechat` (
   `workgroup_id` bigint(20) DEFAULT NULL,
   `wx_number` varchar(255) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
-
---
--- 转存表中的数据 `wechat`
---
-
-INSERT INTO `wechat` (`id`, `created_at`, `updated_at`, `aes_key`, `alias`, `app_id`, `app_secret`, `authorization_code`, `authorization_code_expired`, `authorize`, `authorizer_access_token`, `authorizer_app_id`, `authorizer_refresh_token`, `business_info_open_card`, `business_info_open_pay`, `business_info_open_scan`, `business_info_open_shake`, `business_info_open_store`, `category`, `company`, `data_type`, `description`, `encode_type`, `expires_in`, `head_img`, `is_mini_program`, `nick_name`, `original_id`, `principal_name`, `qrcode_url`, `service_type_info`, `signature`, `token`, `url`, `user_name`, `verify_type_info`, `wid`, `mini_program_info_id`, `users_id`, `workgroup_id`, `wx_number`) VALUES
-(556334, '2018-10-29 16:32:22', '2019-03-21 08:25:55', 'OadnyZnUEPiscOA4DsjCSCW4TY4uJQ3zj3aSB2XKDVg', NULL, 'wx89711c5fd9910289', '834605c44811aed6c6878608f45c7dc2', NULL, NULL, b'0', '16_SdJPASUTbHYe2UuDmf_2KrCkv-hS0JlIGKjv7f_A4FQT9hi8UpbvBx7u16AogZYNG4PgrbovXdM9QsorKtav6l85pr8rAdmdhApQfU0-MCq2nE1fbtllPI53tHdaqHz5lZklXnpyFg8OepL6HBPbAIAPJX', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '北京微语天下科技有限公司', NULL, '移动终端在线客服，app在线客服，提供SDK和客户端', '3', 0, NULL, b'0', '萝卜丝云客服', NULL, NULL, NULL, NULL, NULL, '201810291632211', 'https://wechat.bytedesk.com/wechat/mp/push/201810291632211', 'gh_93a8091893ed', NULL, '201810291632211', NULL, 15, 17, 'appkefu'),
-(562614, '2018-10-29 23:02:00', '2018-10-29 23:02:00', 'YLOfuQ2DfNTx58PqdJoO4cceZOeT8Dv1NYBoZ1ftSjJ', NULL, 'wxaa30599823640966', 'ccfe985bb0150527df87874ab0a34c70', NULL, NULL, b'0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '北京微语天下科技有限公司', '2', '全渠道智能云客服手机客服端', '3', 0, NULL, b'1', '吾协', NULL, NULL, NULL, NULL, NULL, '201810292301591', 'https://wechat.bytedesk.com/wechat/mini/push/201810292301591', 'gh_a2745083632e', NULL, '201810292301592', NULL, 15, 17, NULL);
 
 -- --------------------------------------------------------
 
