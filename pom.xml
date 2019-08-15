@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>io.xiaper</groupId>
+	<artifactId>bytedesk-server</artifactId>
+	<version>2.1.7.RELEASE</version>
+
+	<packaging>pom</packaging>
+	<name>Xiaper Spring Cloud Projects</name>
+
+	<description>虾婆·xiaper.io</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<main.basedir>${basedir}</main.basedir>
+	</properties>
+
+	<modules>
+
+		<module>im-in-action-tutorial</module>
+		<module>java-websocket</module>
+		<module>polling</module>
+		<module>long-polling</module>
+		<module>miniprogram-websocket</module>
+		<module>netty-websocket</module>
+		<module>protobuf-chat</module>
+        <module>server-send-event-webflux</module>
+        <module>server-send-event-webmvc</module>
+		<module>tcp-chat</module>
+		<module>udp-chat-server</module>
+
+	</modules>
+
+</project>
