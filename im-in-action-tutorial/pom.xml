@@ -32,8 +32,12 @@
 
 		<module>spring-boot-sample-websocket</module>
 		<module>spring-boot-websocket</module>
-		<module>spring-boot-websocket-sockjs</module>
+
 		<module>spring-boot-websocket-stomp</module>
+		<module>spring-boot-websocket-stomp-mini</module>
+		<module>spring-boot-websocket-stomp-sockjs</module>
+		<module>spring-boot-websocket-stomp-sockjs-rabbitmq</module>
+
 		<module>websocket-spring-demo</module>
 
 

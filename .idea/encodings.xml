@@ -2,36 +2,17 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/netty-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/protobuf-chat" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-long-polling" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-polling" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-server-send-event-webflux" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-server-send-event-webmvc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-mini" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/tcp-chat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/im-in-action-tutorial/udp-chat-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/miniprogram-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/netty-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/netty-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/protobuf-chat" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-long-polling" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-polling" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-sample-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-server-send-event-webflux" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-server-send-event-webmvc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-sockjs" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-stomp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-boot-websocket" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tcp-chat" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/udp-chat-server" charset="UTF-8" />
   </component>
 </project>
