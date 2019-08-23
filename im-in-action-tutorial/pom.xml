@@ -25,7 +25,6 @@
 		<module>spring-boot-long-polling</module>
 		<module>spring-boot-polling</module>
 		<module>netty-websocket</module>
-		<module>protobuf-chat</module>
 		<module>spring-boot-server-send-event-webflux</module>
 		<module>spring-boot-server-send-event-webmvc</module>
 		<module>tcp-chat</module>
@@ -33,8 +32,8 @@
 
 		<module>spring-boot-sample-websocket</module>
 		<module>spring-boot-websocket</module>
-		<module>spring-boot-sockjs</module>
-		<module>spring-boot-stomp</module>
+		<module>spring-boot-websocket-sockjs</module>
+		<module>spring-boot-websocket-stomp</module>
 		<module>websocket-spring-demo</module>
 
 

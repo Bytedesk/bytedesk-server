@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-long-polling/long-polling.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-long-polling/long-polling.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-websocket/netty-websocket.iml" filepath="$PROJECT_DIR$/netty-websocket/netty-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-polling/polling.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-polling/polling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/protobuf-chat/protobuf-chat.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/protobuf-chat/protobuf-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-server-send-event-webflux/server-send-event-webflux.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-server-send-event-webflux/server-send-event-webflux.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-server-send-event-webmvc/server-send-event-webmvc.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-server-send-event-webmvc/server-send-event-webmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-long-polling/spring-boot-long-polling.iml" filepath="$PROJECT_DIR$/spring-boot-long-polling/spring-boot-long-polling.iml" />
@@ -14,9 +13,11 @@
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-server-send-event-webflux/spring-boot-server-send-event-webflux.iml" filepath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/spring-boot-server-send-event-webflux.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-server-send-event-webmvc/spring-boot-server-send-event-webmvc.iml" filepath="$PROJECT_DIR$/spring-boot-server-send-event-webmvc/spring-boot-server-send-event-webmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/spring-boot-sockjs.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/spring-boot-sockjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp/spring-boot-stomp.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp/spring-boot-stomp.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/spring-boot-websocket.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/spring-boot-websocket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/spring-boot-websocket-sockjs.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/spring-boot-websocket-sockjs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/spring-boot-websocket-stomp.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/spring-boot-websocket-stomp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/spring-boot-websocket-sockjs.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/spring-boot-websocket-sockjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/tcp-chat/tcp-chat.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/tcp-chat/tcp-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/udp-chat-server/udp-chat-server.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/udp-chat-server/udp-chat-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial/netty-websocket/websocket.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial/netty-websocket/websocket.iml" />

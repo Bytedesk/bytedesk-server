@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="long-polling" />
-        <module name="protobuf-chat" />
         <module name="spring-boot-server-send-event-webflux" />
         <module name="udp-chat-server" />
         <module name="netty-websocket" />
@@ -19,8 +18,10 @@
         <module name="spring-boot-sample-websocket" />
         <module name="spring-boot-long-polling" />
         <module name="spring-boot-server-send-event-webmvc" />
+        <module name="spring-boot-stomp" />
         <module name="polling" />
         <module name="tcp-chat" />
+        <module name="spring-boot-sockjs" />
         <module name="spring-boot-websocket" />
         <module name="spring-boot-websocket-stomp" />
         <module name="websocket-spring-demo" />

@@ -24,3 +24,5 @@ hs_err_pid*
 
 im-in-action-tutorial/mars/*
 2.1.5-SNAPSHOT/
+
+*/target/*
