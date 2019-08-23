@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "群聊",
-  "disableScroll": false,
-  "usingComponents": {
-    "i-input": "/components/iview/input/index",
-    "i-message": "/components/iview/message/index"
-  }
-}

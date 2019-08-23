@@ -1,7 +1,0 @@
-server:
-  port: 8002
-  servlet:
-    context-path: /
-wechat:
-  appid:
-  secret:

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/im-in-action-tutorial.iml" filepath="$PROJECT_DIR$/im-in-action-tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-chat/spring-boot-chat.iml" filepath="$PROJECT_DIR$/spring-boot-chat/spring-boot-chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-sockjs/spring-boot-sockjs.iml" filepath="$PROJECT_DIR$/spring-boot-sockjs/spring-boot-sockjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-stomp/spring-boot-stomp.iml" filepath="$PROJECT_DIR$/spring-boot-stomp/spring-boot-stomp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket-spring-demo/websocket-spring-demo.iml" filepath="$PROJECT_DIR$/websocket-spring-demo/websocket-spring-demo.iml" />
+    </modules>
+  </component>
+</project>

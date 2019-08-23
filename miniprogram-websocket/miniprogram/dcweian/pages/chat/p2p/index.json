@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "双人聊天",
-  "disableScroll": false,
-  "usingComponents": {
-    "i-input": "/components/iview/input/index"
-  }
-}
