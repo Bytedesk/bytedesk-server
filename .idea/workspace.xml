@@ -2,7 +2,385 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fd76e0-c026-4c21-aaca-764130417b40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/long-polling/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/long-polling/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_5_0_0_Alpha2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20141113.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-websocket/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-stomp/spring-boot-websocket-stomp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-websocket/spring-boot-websocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/websocket_spring_demo_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/websocket_spring_demo_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/websocket_spring_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/websocket_spring_demo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/artifacts/spring_websocket_portfolio_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/artifacts/spring_websocket_portfolio_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/artifacts/websocket_spring_demo_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/artifacts/websocket_spring_demo_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/dictionaries/ningjinpeng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_commons_commons_compress_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_json_json_20171018.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_websocket_4_3_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_springframework_spring_websocket_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_webjars_bootstrap_3_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_webjars_jquery_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_webjars_sockjs_client_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_webjars_stomp_websocket_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/im-in-action-tutorial.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/src/main/java/com/xiaper/chat/SpringBootChatApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-chat/src/test/java/com/xiaper/chat/SpringBootChatApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/spring-boot-sample-websocket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/SampleJettyWebSocketsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/client/GreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/client/SimpleClientWebSocketHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/client/SimpleGreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/echo/DefaultEchoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/echo/EchoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/echo/EchoWebSocketHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/reverse/ReverseWebSocketEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/snake/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/snake/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/snake/Snake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/snake/SnakeTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/snake/SnakeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/snake/SnakeWebSocketHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/resources/static/echo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/resources/static/reverse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/resources/static/snake.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/test/java/samples/websocket/jetty/SampleWebSocketsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/test/java/samples/websocket/jetty/echo/CustomContainerWebSocketsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/test/java/samples/websocket/jetty/snake/SnakeTimerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/target/classes/static/echo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/target/classes/static/reverse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/target/classes/static/snake.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/src/main/java/com/xiaper/springbootwebsocketsockjs/SpringBootWebsocketSockjsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/src/test/java/com/xiaper/springbootwebsocketsockjs/SpringBootWebsocketSockjsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/spring-boot-stomp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/spring-boot-websocket-stomp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/java/com/xiaper/StompApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/java/com/xiaper/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/java/com/xiaper/controller/GreetingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/java/com/xiaper/model/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/java/com/xiaper/model/HelloMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/resources/static/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/main/resources/static/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/src/test/java/com/xiaper/GreetingIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/spring-boot-websocket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/java/com/xiaper/websocket/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/java/com/xiaper/websocket/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/java/com/xiaper/websocket/handler/BinaryMessageHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/java/com/xiaper/websocket/handler/TextMessageHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/resources/static/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/resources/static/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/resources/static/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/target/classes/static/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/target/classes/static/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/target/classes/static/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/target/classes/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/controller/demo1/GreetingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/controller/demo2/GreetingController2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/controller/demo3/GreetingController3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/login/Authentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/login/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/model/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/model/HelloMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/websocket/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/resources/config/spring/dispatcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/demo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/demo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/demo3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/app/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/app/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/sockjs-client/sockjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/webjars/stomp-websocket/stomp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/websocket.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/websocket.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/test/java/com/jamin/TestUsersMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/target/classes/config/spring/dispatcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-websocket/java-websocket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-websocket/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-websocket/src/main/java/com/xiaper/EchoWebSocket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-websocket/src/main/java/com/xiaper/PushTimeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-websocket/src/test/java/com/xiaper/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/src/main/java/io/xiaper/longpolling/LongPollingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/src/main/java/io/xiaper/longpolling/LongPollingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long-polling/src/test/java/io/xiaper/longpolling/LongPollingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-long-polling/src/test/java/io/xiaper/longpolling/LongPollingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/netty-websocket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-websocket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/ChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/ChatServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/HttpRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/SecureChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/SecureChatServerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/TextWebSocketFrameHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/main/resources/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/src/test/java/com/xiaper/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-websocket/target/classes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/src/main/java/io/xiaper/polling/PollingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/src/main/java/io/xiaper/polling/PollingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polling/src/test/java/io/xiaper/polling/PollingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-polling/src/test/java/io/xiaper/polling/PollingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/ServerSendEventWebFluxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/ServerSendEventWebFluxApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/config/RouterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/config/RouterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/controller/MyEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/controller/MyEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/controller/RouterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/controller/RouterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/dao/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/dao/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/handler/TimeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/handler/TimeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/model/MyEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/model/MyEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/repository/MyEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/repository/MyEventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/java/io/xiaper/sse/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/resources/templates/error/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/resources/templates/error/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/resources/templates/error/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-send-event-webflux/src/test/java/io/xiaper/sse/ServerSendEventApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/test/java/io/xiaper/sse/ServerSendEventApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/en/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/en/guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/en/navbar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/en/sidebar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/install.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/navbar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/sidebar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/style.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,6 +401,12 @@
     <ignored path="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/target/" />
     <ignored path="$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/target/" />
     <ignored path="$PROJECT_DIR$/java-websocket/target/" />
+    <ignored path="$PROJECT_DIR$/netty-websocket-master/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-sockjs/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-websocket/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-sample-websocket/target/" />
+    <ignored path="$PROJECT_DIR$/websocket-spring-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-stomp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +417,53 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram-websocket/src/main/java/com/example/websocket/config/HttpHandshakeInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram-websocket/src/main/java/com/example/websocket/config/ResourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram-websocket/src/main/java/com/example/websocket/config/SubscribeEventListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miniprogram-websocket/src/main/java/com/example/websocket/config/WebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/ServerSendEventWebFluxApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -49,11 +479,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/book/readme.md" />
         <option value="$PROJECT_DIR$/long-polling/pom.xml" />
         <option value="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/pom.xml" />
         <option value="$PROJECT_DIR$/long-polling/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/netty-websocket-master/pom.xml" />
+        <option value="$PROJECT_DIR$/im-in-action-tutorial/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -76,10 +508,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="748" />
-    <option name="y" value="261" />
-    <option name="width" value="1152" />
-    <option name="height" value="789" />
+    <option name="x" value="433" />
+    <option name="y" value="23" />
+    <option name="width" value="1117" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -89,7 +521,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,77 +532,13 @@
             <path>
               <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="long-polling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="long-polling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="long-polling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="long-polling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="long-polling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="long-polling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="long-polling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
-              <item name="longpolling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="long-polling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf-chat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,14 +596,14 @@
       </method>
     </configuration>
     <configuration name="LongPollingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="long-polling" />
+      <module name="spring-boot-long-polling" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.longpolling.LongPollingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PollingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="polling" />
+      <module name="spring-boot-polling" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.polling.PollingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,14 +617,14 @@
       </method>
     </configuration>
     <configuration name="ServerSendEventWebFluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="server-send-event-webflux" />
+      <module name="spring-boot-server-send-event-webflux" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.sse.ServerSendEventWebFluxApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ServerSendEventWebMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="server-send-event-webmvc" />
+      <module name="spring-boot-server-send-event-webmvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.sse.ServerSendEventWebMvcApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -270,14 +638,14 @@
       </method>
     </configuration>
     <configuration name="SpringBootWebsocketSockjsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-websocket-sockjs" />
+      <module name="spring-boot-sockjs" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.springbootwebsocketsockjs.SpringBootWebsocketSockjsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="StompApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-websocket-stomp" />
+      <module name="spring-boot-stomp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.StompApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,32 +689,24 @@
       <option name="presentableId" value="Default" />
       <updated>1565908182098</updated>
       <workItem from="1565908183509" duration="1814000" />
+      <workItem from="1566562937436" duration="2523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1814000" />
+    <option name="totallyTimeSpent" value="4337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="748" y="261" width="1152" height="789" extended-state="0" />
+    <frame x="445" y="23" width="1084" height="895" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2981982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.353167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.33378562" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="LuaCheck" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -354,29 +714,86 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.33378562" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="LuaCheck" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-long-polling/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-long-polling/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/en/guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/en/navbar.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/sidebar.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -390,39 +807,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/long-polling/src/main/java/io/xiaper/longpolling/LongPollingApplication.java">
+    <entry file="file://$PROJECT_DIR$/netty-websocket/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="277">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/long-polling/pom.xml">
+    <entry file="file://$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/HttpRequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/long-polling/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/netty-websocket/src/main/java/net/mengkang/WebSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="270">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/websocketx/extensions/compression/WebSocketServerCompressionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-websocket/src/main/java/net/mengkang/WebSocketServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/java/com/xiaper/websocket/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/webapp/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sample-websocket/src/main/java/samples/websocket/jetty/SampleJettyWebSocketsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/channel/group/ChannelGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/ChatServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-websocket/src/main/java/com/xiaper/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-websocket/src/main/java/com/xiaper/EchoWebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-websocket/src/main/java/net/mengkang/WebSocketServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/websocket/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-573">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/java/com/xiaper/websocket/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/java/com/xiaper/websocket/handler/BinaryMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/src/main/java/com/xiaper/websocket/handler/TextMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/src/main/java/com/jamin/controller/demo1/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="171">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/spring-boot-long-polling/src/main/java/io/xiaper/longpolling/LongPollingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-polling/src/main/java/io/xiaper/polling/PollingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram-websocket/src/main/java/com/example/websocket/config/HttpHandshakeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram-websocket/src/main/java/com/example/websocket/config/ResourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram-websocket/src/main/java/com/example/websocket/config/SubscribeEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram-websocket/src/main/java/com/example/websocket/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-server-send-event-webflux/src/main/java/io/xiaper/sse/ServerSendEventWebFluxApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

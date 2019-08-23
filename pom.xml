@@ -19,17 +19,21 @@
 
 	<modules>
 
-		<module>im-in-action-tutorial</module>
-		<module>java-websocket</module>
 		<module>polling</module>
 		<module>long-polling</module>
 		<module>miniprogram-websocket</module>
-		<module>netty-websocket</module>
+		<module>netty-websocket-master</module>
 		<module>protobuf-chat</module>
         <module>server-send-event-webflux</module>
         <module>server-send-event-webmvc</module>
 		<module>tcp-chat</module>
 		<module>udp-chat-server</module>
+
+		<module>spring-boot-sample-websocket</module>
+		<module>spring-boot-websocket</module>
+		<module>spring-boot-sockjs</module>
+		<module>spring-boot-stomp</module>
+		<module>websocket-spring-demo</module>
 
 	</modules>
 

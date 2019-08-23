@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="websocket-spring-demo:war">
-    <output-path>$PROJECT_DIR$/im-in-action-tutorial/websocket-spring-demo/target</output-path>
+    <output-path>$PROJECT_DIR$/websocket-spring-demo/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>websocket-spring-demo</module>
