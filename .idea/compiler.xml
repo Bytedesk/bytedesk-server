@@ -6,28 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-polling" />
+        <module name="netty-websocket" />
+        <module name="spring-boot-long-polling" />
+        <module name="websocket-spring-demo" />
+        <module name="udp-chat-server" />
         <module name="spring-boot-server-send-event-webmvc" />
         <module name="spring-boot-server-send-event-webflux" />
-        <module name="netty-websocket" />
-        <module name="spring-boot-websocket-stomp-mini" />
-        <module name="spring-boot-polling" />
         <module name="spring-boot-sample-websocket" />
-        <module name="spring-boot-long-polling" />
-        <module name="spring-boot-websocket-stomp-sockjs-rabbitmq" />
         <module name="tcp-chat" />
-        <module name="udp-chat-server" />
-        <module name="spring-boot-websocket" />
         <module name="spring-boot-websocket-stomp" />
-        <module name="websocket-spring-demo" />
+        <module name="spring-boot-websocket-stomp-sockjs-rabbitmq" />
+        <module name="spring-boot-websocket-stomp-mini" />
+        <module name="spring-boot-websocket" />
       </profile>
       <profile name="Annotation profile for ByteDesk Spring Boot Projects" enabled="true">
         <sourceOutputDir name="../spring-boot-websocket-sockjs/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../spring-boot-websocket-sockjs/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-websocket-stomp-sockjs" />
+        <module name="spring-boot-sockjs" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="im-in-action" target="1.5" />
       <module name="im-in-action-tutorial" target="1.5" />
       <module name="java-websocket" target="1.7" />
       <module name="miniprogram-websocket" target="1.8" />
@@ -39,6 +41,7 @@
       <module name="spring-boot-sample-websocket" target="1.8" />
       <module name="spring-boot-server-send-event-webflux" target="1.8" />
       <module name="spring-boot-server-send-event-webmvc" target="1.8" />
+      <module name="spring-boot-sockjs" target="1.8" />
       <module name="spring-boot-websocket" target="1.8" />
       <module name="spring-boot-websocket-stomp" target="1.8" />
       <module name="spring-boot-websocket-stomp-mini" target="1.8" />
@@ -47,7 +50,6 @@
       <module name="tcp-chat" target="1.7" />
       <module name="udp-chat-server" target="1.7" />
       <module name="websocket-spring-demo" target="1.8" />
-      <module name="xiaper-spring-cloud" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -59,6 +61,7 @@
       <module name="spring-boot-sample-websocket" options="-parameters" />
       <module name="spring-boot-server-send-event-webflux" options="-parameters" />
       <module name="spring-boot-server-send-event-webmvc" options="-parameters" />
+      <module name="spring-boot-sockjs" options="-parameters" />
       <module name="spring-boot-websocket" options="-parameters" />
       <module name="spring-boot-websocket-stomp" options="-parameters" />
       <module name="spring-boot-websocket-stomp-mini" options="-parameters" />

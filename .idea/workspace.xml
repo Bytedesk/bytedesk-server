@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fd76e0-c026-4c21-aaca-764130417b40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs-rabbitmq/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp/spring-boot-websocket-stomp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/src/main/java/com/xiaper/springbootwebsocketsockjs/SpringBootWebsocketSockjsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/src/main/java/com/xiaper/springbootwebsocketsockjs/SpringBootWebsocketSockjsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-mini/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-sockjs/src/test/java/com/xiaper/springbootwebsocketsockjs/SpringBootWebsocketSockjsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-sockjs/src/test/java/com/xiaper/springbootwebsocketsockjs/SpringBootWebsocketSockjsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp/spring-boot-stomp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-mini/spring-boot-websocket-stomp-mini.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/.springBeans" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/im-in-action.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,17 +65,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/netty-websocket/netty-websocket.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -121,12 +85,12 @@
         <option value="$PROJECT_DIR$/long-polling/pom.xml" />
         <option value="$PROJECT_DIR$/long-polling/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/netty-websocket-master/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/im-in-action-tutorial/netty-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-sockjs/pom.xml" />
         <option value="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-stomp/pom.xml" />
         <option value="$PROJECT_DIR$/im-in-action-tutorial/pom.xml" />
         <option value="$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket-stomp-mini/readme.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -155,10 +119,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="228" />
-    <option name="y" value="23" />
-    <option name="width" value="1150" />
-    <option name="height" value="686" />
+    <option name="x" value="493" />
+    <option name="y" value="89" />
+    <option name="width" value="1097" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -168,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,57 +148,13 @@
               <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
               <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bytedesk-server" type="462c0819:PsiDirectoryNode" />
-              <item name="im-in-action-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="mengkang" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-sample-websocket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -415,18 +334,19 @@
       <updated>1565908182098</updated>
       <workItem from="1565908183509" duration="1814000" />
       <workItem from="1566562937436" duration="3951000" />
-      <workItem from="1566568261832" duration="490000" />
+      <workItem from="1566568261832" duration="688000" />
+      <workItem from="1566607527534" duration="36000" />
+      <workItem from="1566607571622" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6255000" />
+    <option name="totallyTimeSpent" value="6655000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="228" y="23" width="1142" height="767" extended-state="0" />
-    <editor active="true" />
+    <frame x="493" y="89" width="1097" height="747" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38181818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36966825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,17 +390,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-long-polling/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/en/guide.md" />
-    <entry file="file://$PROJECT_DIR$/tutorial/en/navbar.md" />
     <entry file="file://$PROJECT_DIR$/tutorial/sidebar.md" />
     <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-websocket/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -627,7 +536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-server-send-event-webmvc/server-send-event-webmvc.iml">
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-server-send-event-webmvc/spring-boot-server-send-event-webmvc.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/netty-websocket/client.html">
@@ -648,13 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -708,9 +610,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/netty-websocket/netty-websocket.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/spring-boot-long-polling/spring-boot-long-polling.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im-in-action-tutorial/netty-websocket/src/main/java/net/mengkang/WebSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="75">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
